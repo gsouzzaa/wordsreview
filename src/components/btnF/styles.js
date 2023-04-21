@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledBtnImages = styled.button`
+export const StyledBtn = styled.button`
   background-color: #9ACD32;
   border-radius: 2rem;
   border: none;
@@ -9,8 +9,8 @@ export const StyledBtnImages = styled.button`
 `;
 
 export const StyledImage = styled.img`
-  max-width: 50rem;
-  height: 50rem;
+  max-width: 40rem;
+  height: 40rem;
   border-radius: 2rem;
 `;
 
@@ -18,6 +18,12 @@ export const StyledImageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
 `;
 
+export const StyledWordsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 10rem;
+  margin-top: 5rem;
+`;

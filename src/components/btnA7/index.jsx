@@ -1,20 +1,80 @@
 import React from "react";
 import { StyledBtn, StyledImage, StyledImageWrapper, StyledWordsWrapper } from "./styles";
-import images from "../../assets/imagesD/images";
+import images from "../../assets/imagesA7/images";
 
 class BtnWordsOrImages extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       words: [
-        'word1',
-        'word2',
-        'word3',
+        "dog",
+        "cat",
+        "cow",
+        "rabbit",
+        "car",
+        "bus",
+        "bike",
+        "truck",
+        "egg",
+        "milk",
+        "bread",
+        "butter",
+        "apple",
+        "lemon",
+        "banana",
+        "orange",
+        "eye",
+        "nose",
+        "ear",
+        "mouth",
+        "hand",
+        "foot",
+        "hair",
+        "head",
+        "bed",
+        "piano",
+        "desk",
+        "chair",
+        "sofa",
+        "table",
+        "TV",
+        "door",
+        "bag",
+        "cap",
+        "coat",
+        "shoes",
+        "lion",
+        "bear",
+        "sheep",
+        "deer",
+        "sea",
+        "sun",
+        "star",
+        "moon",
+        "ship",
+        "train",
+        "boat",
+        "plane",
+        "cup",
+        "fork",
+        "spoon",
+        "plate",
+        "corn",
+        "carrot",
+        "potato",
+        "tomato",
+        "pants",
+        "socks",
+        "shirt",
+        "skirt",
+        "sky",
+        "tree",
+        "rain",
+        "flower",
       ],
 
       selectedImage: null,
       wordSelected: ''
-
     };
   }
 

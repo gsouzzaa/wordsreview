@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledBtn, StyledImage, StyledImageWrapper, StyledWordsWrapper } from "./styles";
-import images from "../../assets/imagesD/images";
+import images from "../../assets/imagesA7/images";
 
 class BtnWordsOrImages extends React.Component {
   constructor(props) {

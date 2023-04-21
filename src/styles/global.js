@@ -19,6 +19,7 @@ body, input, button {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 button, a {

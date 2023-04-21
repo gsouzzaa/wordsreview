@@ -27,6 +27,7 @@ export const A7 = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
+    
     height: 8rem;
     width: 8rem;
     border-radius: 2rem;
@@ -109,7 +110,6 @@ export const A2 = styled(Link)`
     height: 8rem;
     width: 8rem;
     border-radius: 2rem;
-
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_2A};
     color: ${({theme}) => theme.COLORS.BACKGROUND_900};

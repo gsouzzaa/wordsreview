@@ -1,41 +1,54 @@
 import React from "react";
+import { StyledBtn, StyledImage, StyledImageWrapper, StyledWordsWrapper } from "./styles";
 import images from "../../assets/imagesD/images";
-import {StyledBtnImages, StyledImage, StyledImageWrapper} from './styles';
 
-class BtnImages extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        selectedImage: null,
-      };
+class BtnWordsOrImages extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      words: [
+        'word1',
+        'word2',
+        'word3',
+      ],
 
-      this.handleClick = this.handleClick.bind(this);
+      selectedImage: null,
+      wordSelected: ''
 
-    }
-
-    handleClick() {
-      const randomIndex = Math.floor(Math.random() * images.length);
-      const selectedImage = images[randomIndex];
-      this.setState({ selectedImage });
-    }
-
-    render() {
-      const { selectedImage } = this.state;
-    
-      return (
-        <div>
-          <StyledBtnImages onClick={this.handleClick}>Click here</StyledBtnImages>
-
-          <StyledImageWrapper>
-          {selectedImage &&
-          <StyledImage
-          src={selectedImage} 
-          alt="Random Image" />
-          }
-          </StyledImageWrapper>
-        </div>
-      );
-    }
+    };
   }
 
-export default BtnImages;
+  handleClick = () => {
+    const { words } = this.state;
+    const randomIndex = Math.floor(Math.random() * words.length);
+    const wordSelected = words[randomIndex];
+
+    const randomImageIndex = Math.floor(Math.random() * images.length);
+    const selectedImage = images[randomImageIndex];
+
+    const isImage = Math.random() >= 0.5;
+
+    this.setState({ wordSelected: isImage ? '' : wordSelected, selectedImage: isImage ? selectedImage : null });
+  }
+
+  render() {
+    const { selectedImage, wordSelected } = this.state;
+
+    return (
+      <div>
+        <StyledBtn onClick={this.handleClick}>Click here
+        </StyledBtn>
+
+        <StyledWordsWrapper>
+        {wordSelected && <p>{wordSelected}</p>}
+        </StyledWordsWrapper>
+
+        <StyledImageWrapper >
+        {selectedImage && <StyledImage src={selectedImage} alt="Random Image" />}
+        </StyledImageWrapper>
+      </div>
+    );
+  }
+}
+
+export default BtnWordsOrImages;
