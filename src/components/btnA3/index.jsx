@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledBtn, StyledImage, StyledImageWrapper, StyledWordsWrapper } from "./styles";
-import images from "../../assets/imagesD/images";
+import images from "../../assets/imagesA3/images";
 
 class BtnWordsOrImages extends React.Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class BtnWordsOrImages extends React.Component {
         "glasses",
         "fish",
         "dish",
-        "bench",
+        "bench",  
         "watch",
         "duck",
         "neck",
@@ -35,7 +35,6 @@ class BtnWordsOrImages extends React.Component {
         "face",
         "five",
         "nose",
-        "ball",
         "salt",
         "computer",
         "pull",
@@ -48,7 +47,7 @@ class BtnWordsOrImages extends React.Component {
         "mouse",
         "house",
         "moon",
-        "spoon",
+        "spoon",  
         "cook",
         "book",
         "sea",
