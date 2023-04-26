@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const StyledBtn = styled.button`
-  background-color: #DDA0DD;
+  background-color: ${({theme}) => theme.COLORS.BACKGROUND_3A};
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+
   border-radius: 2rem;
   border: none;
-  padding: .5rem;
+
+  padding: 1rem;
   font-size: 4rem;
 `;
 
@@ -23,7 +26,12 @@ export const StyledImageWrapper = styled.div`
 export const StyledWordsWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
-  font-size: 10rem;
-  margin-top: 5rem;
+  justify-content: center;
+  word-wrap: break-word;
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+  border: ${props => props.hasSelectedWord ? '.3rem solid #303030' : 'none'};
+  border-radius: 1.5rem;
+  margin: 0 2rem;
+  font-size: 12rem;
+  margin-top: 8rem;
 `;

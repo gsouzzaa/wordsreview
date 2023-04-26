@@ -21,5 +21,6 @@ export default {
       BACKGROUND_M: "#FFE4E1",
       BACKGROUND_N: "#FFE4B5",
       BACKGROUND_O: "#E6E6FA",
+      BACKGROUND_TEXT: "#343434",
     }
   }

@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const StyledBtn = styled.button`
-  background-color: #FF9000;
+  background-color: ${({theme}) => theme.COLORS.BACKGROUND_6A};
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+
   border-radius: 2rem;
   border: none;
-  padding: .5rem;
+
+  padding: 1rem;
   font-size: 4rem;
 `;
 
@@ -24,9 +27,11 @@ export const StyledWordsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: ${props => props.hasSelectedWord ? '.3rem solid #ccc' : 'none'};
+  word-wrap: break-word;
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+  border: ${props => props.hasSelectedWord ? '.3rem solid #303030' : 'none'};
   border-radius: 1.5rem;
-  margin: 0 1rem;
+  margin: 0 2rem;
   font-size: 12rem;
   margin-top: 8rem;
 `;

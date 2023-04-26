@@ -93,13 +93,14 @@ class BtnWordsOrImages extends React.Component {
 
   render() {
     const { selectedImage, wordSelected } = this.state;
-
+    const hasSelectedWord = !!wordSelected;
+    
     return (
       <div>
         <StyledBtn onClick={this.handleClick}>Click here
         </StyledBtn>
 
-        <StyledWordsWrapper>
+        <StyledWordsWrapper hasSelectedWord={hasSelectedWord}>
         {wordSelected && <p>{wordSelected}</p>}
         </StyledWordsWrapper>
 

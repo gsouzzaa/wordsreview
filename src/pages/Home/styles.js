@@ -4,6 +4,10 @@ import { Link } from "react-router-dom"
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
+
+    background-color: #686868;
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+
     display: grid;
     place-items: center;
 
@@ -33,7 +37,7 @@ export const A7 = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_7A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const A6 = styled(Link)`
@@ -49,7 +53,7 @@ export const A6 = styled(Link)`
 
     border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_6A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const A5 = styled(Link)`
@@ -64,7 +68,7 @@ export const A5 = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_5A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
     border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 `;
 
@@ -80,7 +84,7 @@ export const A4 = styled(Link)`
     border-radius: 2rem;    
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_4A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
     border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 `;
 
@@ -97,7 +101,7 @@ export const A3 = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_3A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const A2 = styled(Link)`
@@ -112,8 +116,7 @@ export const A2 = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_2A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const A = styled(Link)`
@@ -128,8 +131,7 @@ export const A = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_A};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const B = styled(Link)`
@@ -144,8 +146,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_B};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const C = styled(Link)`
@@ -160,8 +161,7 @@ export const C = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_C};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const D = styled(Link)`
@@ -176,8 +176,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_D};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const E = styled(Link)`
@@ -192,8 +191,7 @@ export const E = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_E};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const F = styled(Link)`
@@ -208,8 +206,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_F};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const G = styled(Link)`
@@ -224,8 +221,7 @@ export const G = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_G};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const H = styled(Link)`
@@ -240,8 +236,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_H};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const I = styled(Link)`
@@ -256,8 +251,7 @@ export const I = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_I};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const J = styled(Link)`
@@ -272,8 +266,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_J};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const K = styled(Link)`
@@ -288,8 +281,7 @@ export const K = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_K};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const L = styled(Link)`
@@ -304,8 +296,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_L};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const M = styled(Link)`
@@ -320,8 +311,7 @@ export const M = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_M};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const N = styled(Link)`
@@ -336,8 +326,7 @@ width: 8rem;
 border-radius: 2rem;
 
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_N};
-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const O = styled(Link)`
@@ -352,6 +341,5 @@ export const O = styled(Link)`
     border-radius: 2rem;
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_O};
-    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
