@@ -9,8 +9,8 @@ class BtnWordsOrImages extends React.Component {
     super(props);
     this.state = {
       words: [
-        { text: 'The boy ** r*n***g', image: boyrunning },
-        { text: 'The *** is ** the ****', image: catonthesofa }
+        { text: 'The boy __ r_n___g', image: boyrunning },
+        { text: 'The ___ is _ the ___', image: catonthesofa }
       ],
 
       selectedImage: null,

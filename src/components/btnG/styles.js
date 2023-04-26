@@ -20,14 +20,12 @@ export const StyledWordsWrapper = styled.div`
   border-radius: 1.5rem;
   margin: 0 1rem;
   margin-top: 5rem;
-  gap: 3rem;
+  gap: 2rem;
   
   color: #333333;
-  font-size: 6rem;
-
   > 
   p { 
-    font-size: 8rem;
+    font-size: 5.5rem;
   }
 `;
 
@@ -36,7 +34,7 @@ export const StyledOptionBtn = styled.button`
   border: none;
   color: #404040;
   padding: .5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   background-color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#00b300' : '333'};
   color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#fff' : '333'}
 `;
