@@ -9,14 +9,15 @@ export const StyledBtn = styled.button`
 `;
 
 export const StyledImage = styled.img`
-  max-width: 40rem;
-  height: 40rem;
+  max-width: 30rem;
+  height: 30rem;
   border-radius: 2rem;
 `;
 
 export const StyledImageWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
   align-items: center;
 `;
 
@@ -24,6 +25,6 @@ export const StyledWordsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 10rem;
-  margin-top: 5rem;
+  font-size: 8rem;
+  margin-top: 2rem;
 `;

@@ -23,7 +23,10 @@ export const StyledImageWrapper = styled.div`
 export const StyledWordsWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
-  font-size: 10rem;
-  margin-top: 5rem;
+  justify-content: center;
+  border: ${props => props.hasSelectedWord ? '.3rem solid #ccc' : 'none'};
+  border-radius: 1.5rem;
+  margin: 0 1rem;
+  font-size: 12rem;
+  margin-top: 8rem;
 `;

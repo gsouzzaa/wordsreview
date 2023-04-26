@@ -1,34 +1,32 @@
 import React from "react";
 import { StyledBtn, StyledImage, StyledImageWrapper, StyledWordsWrapper } from "./styles";
-import images from "../../assets/imagesA7/images";
+import images from '../../assets/imagesA2/images'
+import boyrunning from "../../assets/imagesA2/boyrunning.jpg";
+import catonthesofa from "../../assets/imagesA2/catonthesofa.jpg";
 
 class BtnWordsOrImages extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       words: [
-        'word1',
-        'word2',
-        'word3',
+        { text: 'The boy ** r*n***g', image: boyrunning },
+        { text: 'The *** is ** the ****', image: catonthesofa }
       ],
 
       selectedImage: null,
       wordSelected: ''
-
     };
   }
 
   handleClick = () => {
-    const { words } = this.state;
-    const randomIndex = Math.floor(Math.random() * words.length);
-    const wordSelected = words[randomIndex];
-
     const randomImageIndex = Math.floor(Math.random() * images.length);
     const selectedImage = images[randomImageIndex];
 
-    const isImage = Math.random() >= 0.5;
+    const wordSelected = this.state.words.find((word) => {
+      return word.image === selectedImage;
+    });
 
-    this.setState({ wordSelected: isImage ? '' : wordSelected, selectedImage: isImage ? selectedImage : null });
+    this.setState({ wordSelected, selectedImage});
   }
 
   render() {
@@ -39,13 +37,18 @@ class BtnWordsOrImages extends React.Component {
         <StyledBtn onClick={this.handleClick}>Click here
         </StyledBtn>
 
-        <StyledWordsWrapper>
-        {wordSelected && <p>{wordSelected}</p>}
-        </StyledWordsWrapper>
+        <StyledImageWrapper selectedImage={selectedImage}>
+          {selectedImage && (
+            <>
+              <StyledImage src={selectedImage} alt="Random Image" />
 
-        <StyledImageWrapper >
-        {selectedImage && <StyledImage src={selectedImage} alt="Random Image" />}
+              <StyledWordsWrapper>
+                <p>{wordSelected?.text}</p>
+              </StyledWordsWrapper>
+            </>
+          )}
         </StyledImageWrapper>
+
       </div>
     );
   }
