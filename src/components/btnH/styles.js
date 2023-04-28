@@ -26,7 +26,7 @@ export const StyledWordsWrapper = styled.div`
   gap: 2rem;
   > 
   p { 
-    font-size: 5.5rem;
+    font-size: 3rem;
     padding: 2rem;
     color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
   }
@@ -37,7 +37,7 @@ export const StyledOptionBtn = styled.button`
   border-radius: 2rem;
   border: none;
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#00b300' : '333'};
   color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#fff' : '#343434'}
 `;

@@ -32,6 +32,6 @@ export const StyledWordsWrapper = styled.div`
   border: ${props => props.hasSelectedWord ? '.3rem solid #303030' : 'none'};
   border-radius: 1.5rem;
   margin: 0 2rem;
-  font-size: 12rem;
+  font-size: 10rem;
   margin-top: 8rem;
 `;

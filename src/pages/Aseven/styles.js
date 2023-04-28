@@ -11,7 +11,8 @@ export const Container = styled.div`
 export const Main = styled(Link)`
     display: flex;
     align-items: center;
-    color: #333333;
+    
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 
     height: 3rem;
     width: 3rem;

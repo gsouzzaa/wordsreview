@@ -34,6 +34,6 @@ export const StyledWordsWrapper = styled.div`
   border-radius: 1.5rem;
   margin: 0 2rem;
   color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
-  font-size: 12rem;
+  font-size: 10rem;
   margin-top: 8rem;
 `;

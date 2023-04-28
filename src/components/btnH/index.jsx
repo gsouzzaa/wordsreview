@@ -1,11 +1,7 @@
-
-
-
-
 //draw, attack, rescue, sink, keep, stop, rest, solve, scream, plan, master, grow, teach, write, speak, sell, import, break, injure, damage, cut, steal, scratch, display, miss, answer, order, climb, eat, lose, decorate, go, reserve, introduce, meet, read, hear, be, see, drive, build, fly, know, take, leave, fall -  verbos do livro H
 
 import React from "react";
-import { StyledBtn, StyledWordsWrapper, StyledOptionBtn  } from "./styles";
+import { StyledBtn, StyledWordsWrapper, StyledOptionBtn } from "./styles";
 
 class BtnWords extends React.Component {
   constructor(props) {
@@ -593,7 +589,7 @@ class BtnWords extends React.Component {
 
           <StyledWordsWrapper hasSelectedWord={hasSelectedWord}>
           {wordSelected.text && <p>{wordSelected.text}</p>}
-          {!wordSelected.options && <p>Are you ready? Click the button ⬆</p>}
+          {!wordSelected.options && <p>Click the button ⬆ to start!</p>}
           </StyledWordsWrapper>
           {wordSelected.options && this.renderOptions()}
 
