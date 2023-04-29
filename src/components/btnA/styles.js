@@ -27,6 +27,7 @@ export const StyledWordsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 8rem;
+  font-size: 3rem;
   margin-top: 2rem;
+  padding: 1rem;
 `;

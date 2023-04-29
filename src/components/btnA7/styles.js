@@ -7,6 +7,7 @@ export const StyledBtn = styled.button`
 
   border-radius: 2rem;
   border: none;
+
   padding: 1rem;
   font-size: 4rem;
 `;
@@ -29,11 +30,13 @@ export const StyledWordsWrapper = styled.div`
   justify-content: center;
   word-wrap: break-word;
   text-align: center;
-  word-wrap: break-word;
+
   border: ${props => props.hasSelectedWord ? '.3rem solid #303030' : 'none'};
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+  
   border-radius: 1.5rem;
   margin: 0 2rem;
-  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
-  font-size: 10rem;
-  margin-top: 8rem;
+  font-size: 5rem;
+  margin-top: 5rem;
+  padding: 1rem;
 `;

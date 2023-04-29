@@ -51,7 +51,6 @@ export const A6 = styled(Link)`
     width: 8rem;
     border-radius: 2rem;
 
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_6A};
     color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
@@ -69,7 +68,6 @@ export const A5 = styled(Link)`
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_5A};
     color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 `;
 
 export const A4 = styled(Link)`
@@ -85,7 +83,6 @@ export const A4 = styled(Link)`
 
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_4A};
     color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
-    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 `;
 
 export const A3 = styled(Link)`
@@ -135,18 +132,18 @@ export const A = styled(Link)`
 `;
 
 export const B = styled(Link)`
-grid-area: b;
+    grid-area: b;
 
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-height: 8rem;
-width: 8rem;
-border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
 
-background-color: ${({theme}) => theme.COLORS.BACKGROUND_B};
-color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_B};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const C = styled(Link)`
@@ -165,18 +162,18 @@ export const C = styled(Link)`
 `;
 
 export const D = styled(Link)`
-grid-area: d;
+    grid-area: d;
 
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-height: 8rem;
-width: 8rem;
-border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
 
-background-color: ${({theme}) => theme.COLORS.BACKGROUND_D};
-color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_D};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const E = styled(Link)`
@@ -195,18 +192,18 @@ export const E = styled(Link)`
 `;
 
 export const F = styled(Link)`
-grid-area: f;
+    grid-area: f;
 
-display: flex;
-    align-items: center;
-justify-content: center;
+    display: flex;
+        align-items: center;
+    justify-content: center;
 
-height: 8rem;
-width: 8rem;
-border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
 
-background-color: ${({theme}) => theme.COLORS.BACKGROUND_F};
-color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_F};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const G = styled(Link)`
@@ -225,18 +222,18 @@ export const G = styled(Link)`
 `;
 
 export const H = styled(Link)`
-grid-area: h;
+    grid-area: h;
 
-display: flex;
+    display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
 
-height: 8rem;
-width: 8rem;
-border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
 
-background-color: ${({theme}) => theme.COLORS.BACKGROUND_H};
-color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_H};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const I = styled(Link)`
@@ -255,18 +252,18 @@ export const I = styled(Link)`
 `;
 
 export const J = styled(Link)`
-grid-area: j;
+    grid-area: j;
 
-display: flex;
+    display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
 
-height: 8rem;
-width: 8rem;
-border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
 
-background-color: ${({theme}) => theme.COLORS.BACKGROUND_J};
-color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_J};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const K = styled(Link)`
@@ -285,18 +282,18 @@ export const K = styled(Link)`
 `;
 
 export const L = styled(Link)`
-grid-area: l;
+    grid-area: l;
 
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-height: 8rem;
-width: 8rem;
-border-radius: 2rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 2rem;
 
-background-color: ${({theme}) => theme.COLORS.BACKGROUND_L};
-color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_L};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
 `;
 
 export const M = styled(Link)`

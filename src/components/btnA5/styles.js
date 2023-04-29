@@ -28,10 +28,14 @@ export const StyledWordsWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   word-wrap: break-word;
-  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+  text-align: center;
+
   border: ${props => props.hasSelectedWord ? '.3rem solid #303030' : 'none'};
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+  
   border-radius: 1.5rem;
   margin: 0 2rem;
-  font-size: 10rem;
-  margin-top: 8rem;
+  font-size: 5rem;
+  margin-top: 5rem;
+  padding: 1rem;
 `;
