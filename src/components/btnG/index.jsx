@@ -399,7 +399,7 @@ class BtnWords extends React.Component {
 
       wordSelected: '',
       selectedOptionId: '',
-     answerStatus: '',
+      answerStatus: '',
     };
   }
 

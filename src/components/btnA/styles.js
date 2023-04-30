@@ -26,8 +26,30 @@ export const StyledImageWrapper = styled.div`
 export const StyledWordsWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
-  font-size: 3rem;
-  margin-top: 2rem;
-  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  border: ${props => props.hasSelectedWord ? '.3rem solid #303030' : 'none'};
+  border-radius: 1.5rem;
+
+  margin: 0 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  > 
+  p { 
+    font-size: 3rem;
+    padding: 2rem;
+    color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
+  }
+`;
+
+export const StyledOptionBtn = styled.button`
+  margin: 2rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#00b300' : '333'};
+  color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#fff' : '#343434'}
 `;
