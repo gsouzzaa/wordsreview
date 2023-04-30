@@ -7,12 +7,12 @@ export const StyledBtn = styled.button`
   border-radius: 2rem;
   border: none;
   padding: 1rem;
-  font-size: 4rem;
+  font-size: 3rem;
 `;
 
 export const StyledImage = styled.img`
-  max-width: 30rem;
-  height: 30rem;
+  max-width: 20rem;
+  height: 20rem;
   border-radius: 2rem;
 `;
 
@@ -38,17 +38,17 @@ export const StyledWordsWrapper = styled.div`
   gap: 2rem;
   > 
   p { 
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 2rem;
     color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
   }
 `;
 
 export const StyledOptionBtn = styled.button`
-  margin: 2rem;
+  margin: .8rem;
   border-radius: 2rem;
   border: none;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 2rem;
   background-color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#00b300' : '333'};
   color: ${(props) => props.correct && props.answerStatus === 'correct' ? '#fff' : '#343434'}
