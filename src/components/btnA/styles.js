@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const StyledBtn = styled.button`
-  background-color: #DC143C;
-  color: #333333;
+  background-color: ${({theme}) => theme.COLORS.BACKGROUND_A};
+  color: ${({theme}) => theme.COLORS.BACKGROUND_TEXT};
   
   border-radius: 2rem;
   border: none;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
 `;
 
 export const StyledImage = styled.img`
-  max-width: 20rem;
-  height: 20rem;
+  max-width: 25rem;
+  height: 25rem;
   border-radius: 2rem;
 `;
 
