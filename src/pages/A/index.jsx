@@ -1,15 +1,11 @@
 import { Container } from "./styles";
-import { Main } from "./styles";
 import BtnWordsOrImages from "../../components/btnA";
-import { RiHome2Fill} from 'react-icons/ri';
+import BtnMain from "../../components/HomeLink";
 
 export function A() {
     return(
         <Container>
-            <Main to="/">
-                <RiHome2Fill/>
-            </Main>
-
+            <BtnMain />
             <div>
                 <BtnWordsOrImages />
             </div>

@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
 import { Container } from "./styles";
-import { RiHome2Fill} from 'react-icons/ri';
+import {RiHome2Fill} from 'react-icons/ri';
+import { HomeLink } from "./styles";
 
 
-export function BtnMain() {
+export default function BtnMain() {
     return(
-        <Container>
-            <RiHome2Fill to="/">
-                Home
-            </RiHome2Fill>
+        <Container >
+            <HomeLink>
+                <Link to="/" className="HomeLink-link">
+                    <RiHome2Fill />
+                </Link>
+            </HomeLink>
         </Container>
         )
 }

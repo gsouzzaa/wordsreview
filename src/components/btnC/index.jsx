@@ -297,7 +297,7 @@ class BtnWordsOrImages extends React.Component {
         },
         { 
           id: 29,
-          text: '_______ th door', image: openthedoor,
+          text: '_______ the door', image: openthedoor,
           options: [
             { id: 2, text: "Hit" },
             { id: 3, text: "Break" },
