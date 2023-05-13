@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledBtn, StyledImage, StyledImageWrapper, StyledWordsWrapper } from "./styles";
+import { GiClick } from "react-icons/gi";
 import images from "../../assets/imagesA7/images";
 
 class BtnWordsOrImages extends React.Component {
@@ -97,7 +98,8 @@ class BtnWordsOrImages extends React.Component {
     
     return (
       <div>
-        <StyledBtn onClick={this.handleClick}>Click here
+        <StyledBtn onClick={this.handleClick}>
+          <GiClick/>
         </StyledBtn>
 
         <StyledWordsWrapper hasSelectedWord={hasSelectedWord}>

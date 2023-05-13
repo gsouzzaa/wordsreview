@@ -11,10 +11,11 @@ export const HomeLink = styled(Link)`
     position: fixed;
     top: 0;
     left: 0;
+    margin: .4rem;
     
     a.HomeLink-link {
         color: #333;
-        height: .5rem;
-        width: .5rem;
+        height: 1rem;
+        width: 1rem;
     }
 `;
