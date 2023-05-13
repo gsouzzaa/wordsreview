@@ -364,7 +364,6 @@ class BtnWordsOrImages extends React.Component {
       selectedOptionId: '',
       wordSelected: '',
       answerStatus: '',
-
     };
   }
 

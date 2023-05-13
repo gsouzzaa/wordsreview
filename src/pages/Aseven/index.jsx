@@ -1,14 +1,11 @@
 import { Container } from "./styles";
-import { Main } from "./styles";
 import BtnWordsOrImages from "../../components/btnA7";
-import { RiHome2Fill} from 'react-icons/ri';
+import BtnMain from "../../components/HomeLink";
 
 export function Aseven() {
     return(
         <Container>
-            <Main to="/">
-                <RiHome2Fill/>
-            </Main>
+                <BtnMain />
 
             <div>
                 <BtnWordsOrImages />

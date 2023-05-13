@@ -11,7 +11,7 @@ export function K() {
             </Main>
 
             <div>
-                <BtnWordsOrImages />
+                <h1>Estou desenvolvendo uma revisão do conteúdo para você! </h1>
             </div>
         </Container>
     )

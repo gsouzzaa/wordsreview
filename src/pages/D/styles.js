@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 export const Container = styled.div`
     height: 100vh;
+    font-size: large;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     text-align: center;

@@ -11,7 +11,7 @@ export function J() {
             </Main>
 
             <div>
-                <BtnWordsOrImages />
+                <h1>Estou desenvolvendo uma revisão do conteúdo para você! </h1>
             </div>
         </Container>
     )

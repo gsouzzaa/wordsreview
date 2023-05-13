@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 export const Container = styled.div`
     height: 100vh;
     display: flex;
+    font-size: large;
+    margin: 1rem;
     flex-direction: column;
     text-align: center;
 `;
